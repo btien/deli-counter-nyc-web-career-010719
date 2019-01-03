@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, string)
   katz_deli.push(string)
-  a = "Wecome "
+  a = "Welcome "
   
 end
 
