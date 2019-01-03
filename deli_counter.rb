@@ -4,6 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     a = "The line is currently: "
+    b =
     while counter <= katz_deli.size
       str = "#{counter}. #{katz_deli[counter-1]}"
       counter += 1
