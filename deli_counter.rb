@@ -20,8 +20,8 @@ def take_a_number(katz_deli, string)
   puts "Welcome, #{string}. You are number #{katz_deli.size} in line."
 end
 
-def now_serving
-  
+def now_serving(katz_deli)
+  puts "Currently serving #{katz_deli.first}"
   katz_deli.
 end
 
