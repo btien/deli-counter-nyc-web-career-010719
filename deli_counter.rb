@@ -5,8 +5,9 @@ def line(katz_deli)
   else
     a = "The line is currently: "
     while counter <= katz_deli.size
-      b = "#{counter}. #{katz_deli[counter-1]}"
+      str = "#{counter}. #{katz_deli[counter-1]}"
       counter += 1
+      b += str
     end
     complete = a + b
     puts "#{complete}"
